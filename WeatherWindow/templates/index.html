@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <title>Weather Window: Your view of the world!e</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h1 class="title">Weather Window</h1>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <img src="http://i63.tinypic.com/vpey4o.jpg" class="load-gif" id="load-gif"></img>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-4 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-4">
+                    <div class="row">
+                        <p class="location"><span id="city"></span><span class="location" id="country"></span></p>
+                    </div>
+                    <div class="row">
+                        <p class="temperature"><span id="temperature"></span></p>
+                    </div>
+                    <div class="row">
+                        <button type="button" id="temp-button" class="btn btn-outline-default temp-button"></button>
+                    </div>
+                </div>
+                <div class="col-xs-offset-1 col-xs-5 col-sm-offset-1 col-sm-5 col-md-offset-1 col-md-5">
+                    <div class="weather-icon">
+                        <i id="weather-icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <p class="footer" id="footer">Created by: <a class="git-link" href="https://github.com/jpriggs">Jason Rigdon</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

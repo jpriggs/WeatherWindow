@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+  background-image: url("http://i64.tinypic.com/s2tz0w.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 84px;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+.load-gif {
+  display: block;
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+.location {
+  font-size: 52px;
+  font-family: 'Righteous', cursive;
+  text-align: right;
+  color: white;
+  margin-top: 100px;
+}
+.temperature {
+  font-size: 64px;
+  font-family: 'Righteous', cursive;
+  text-align: right;
+  color: white;
+  margin-top: 0px;
+}
+.weather-icon {
+  color: white;
+  font-size: 200px;
+  margin-top: 80px;
+}
+.temp-button {
+  background-color: #b2bec3;
+  font-size: 16px;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+  color: #2d3436;
+  float: right;
+  margin-top: 10px;
+}
+.footer {
+  font-size: 22px;
+  font-family: 'Unica One', cursive;
+  text-align: right;
+  color: #b2bec3;
+  margin-top: 100px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.footer a {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  color: #dfe6e9;
+  text-decoration: none;
+}
